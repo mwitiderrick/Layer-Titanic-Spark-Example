@@ -7,8 +7,7 @@ A classification example with `Spark ML` for predicting the survivals of the Tit
 - Feature Store: We are going to use SQL queries to build the `passenger` features.
 - Load `passenger` features and use it to train our `survival` model
 - Experimentation tracking with
-    - logging `accuracy` metric
-    - logging `n_estimators` parameter
+    - logging `BinaryClassificationEvaluator` metric
 
 ## Installation & Running
 
